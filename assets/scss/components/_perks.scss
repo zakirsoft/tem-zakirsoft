@@ -12,7 +12,7 @@
     margin-top: 45px;
     .box {
       background-color: #fff;
-      padding: 25px 50px;
+      padding: 25px;
       border-right: 1px solid #3e424b2c;
       text-align: center;
       img {
@@ -23,6 +23,9 @@
         line-height: 28px;
         color: #3e424b;
         font-weight: 600;
+      }
+      &:nth-child(5) {
+        border-right: 0px;
       }
     }
   }
