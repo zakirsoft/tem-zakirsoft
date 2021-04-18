@@ -154,7 +154,16 @@ body {
   }
 }
 
+@media (max-width: 991px) {
+  .newsDetails__banner {
+    height: 75vh;
+  }
+}
+
 @media (max-width: 767px) {
+  .newsDetails__banner {
+    height: 50vh;
+  }
   .newsDetails__title {
     font-size: 48px;
     line-height: 56px;
@@ -162,6 +171,9 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 574px) {
+  .newsDetails__banner {
+    height: 25vh;
+  }
   .newsDetails__title {
     font-size: 32px;
     line-height: 46px;
