@@ -99,6 +99,15 @@ body {
   margin-left: 15px;
 }
 
+.zakirSoft__button_primary {
+  background-color: #5787ff;
+  border: 0;
+}
+
+.zakirSoft__button_primary a {
+  color: #fff;
+}
+
 .latestProject {
   margin: 100px 0px;
 }
@@ -469,5 +478,103 @@ body {
   }
   .positions__right button {
     margin-top: 30px;
+  }
+}
+
+.careerDetails {
+  padding: 100px 0px;
+}
+
+.careerDetails__postTitleBox {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e2e3e4;
+}
+
+.careerDetails__title {
+  font-size: 84px;
+  line-height: 109px;
+  font-weight: 700;
+  color: #3e424b;
+  font-family: 'Oswald', sans-serif;
+}
+
+.careerDetails__type {
+  font-size: 20px;
+  line-height: 28px;
+  color: #7a849a;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.careerDetails__type .type,
+.careerDetails__type .range {
+  font-weight: 600;
+  color: #3e424b;
+}
+
+.careerDetails__type .point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #3e424b;
+}
+
+.careerDetails__contentBox {
+  padding: 50px 0px 0px 0px;
+  max-width: 50%;
+  margin: auto;
+}
+
+.careerDetails__contentBox-title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #3e424b;
+  margin-bottom: 16px;
+}
+
+.careerDetails__contentBox-brief, .careerDetails__contentBox-salery, .careerDetails__contentBox-location {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e424b;
+}
+
+.careerDetails__contentBox-point li {
+  list-style-type: disc;
+  margin-bottom: 12px;
+}
+
+.careerDetails__contentBox-point li span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e424b;
+}
+
+.careerDetails__go {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* 
+=================
+ ** Responsive **
+=================
+*/
+@media (max-width: 991px) {
+  .careerDetails__contentBox {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+  .careerDetails__title {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  .careerDetails__contentBox {
+    padding: 30px 0px 0px 0px;
   }
 }
