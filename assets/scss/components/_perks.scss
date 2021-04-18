@@ -1,14 +1,11 @@
 .perks {
   background-color: #fafafa;
   padding: 100px 0px;
-  .section__title {
-    margin-bottom: 15px;
-  }
+
   &__benefitsBoxes {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    // align-items: center;
-    // justify-content: center;
+
     margin-top: 45px;
     .box {
       background-color: #fff;

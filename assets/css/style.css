@@ -31,7 +31,7 @@ body {
 .section__title {
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .section__title_one {
@@ -76,8 +76,9 @@ body {
 
 @media (max-width: 574px) {
   .section__title {
-    font-size: 42px;
+    font-size: 38px;
     line-height: 56px;
+    margin-bottom: 15px;
   }
 }
 
@@ -346,10 +347,6 @@ body {
   padding: 100px 0px;
 }
 
-.perks .section__title {
-  margin-bottom: 15px;
-}
-
 .perks__benefitsBoxes {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -398,5 +395,79 @@ body {
   }
   .perks__benefitsBoxes .box {
     margin-bottom: 15px;
+  }
+}
+
+.positions {
+  padding: 100px 0px;
+}
+
+.positions .section__title {
+  margin-bottom: 15px;
+}
+
+.positions__item {
+  margin-top: 40px;
+}
+
+.positions__contentBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e3e4;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.positions__title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #3e424b;
+}
+
+.positions__type {
+  font-size: 20px;
+  line-height: 28px;
+  color: #7a849a;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.positions__type .type,
+.positions__type .range {
+  font-weight: 600;
+  color: #3e424b;
+}
+
+.positions__type .point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #3e424b;
+}
+
+.positions__responsiblity {
+  font-size: 20px;
+  line-height: 28px;
+  color: #7a849a;
+}
+
+/* 
+=================
+ ** Responsive **
+=================
+*/
+@media (max-width: 767px) {
+  .positions__container {
+    max-width: 95%;
+  }
+  .positions__contentBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .positions__right button {
+    margin-top: 30px;
   }
 }
