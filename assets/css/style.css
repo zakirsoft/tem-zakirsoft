@@ -428,6 +428,10 @@ body {
   padding: 100px 0px;
 }
 
+.perks .section__title {
+  margin-bottom: 15px;
+}
+
 .perks__benefitsBoxes {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -439,6 +443,14 @@ body {
   padding: 25px;
   border-right: 1px solid #3e424b2c;
   text-align: center;
+  transform: scale(1);
+  transition: all 0.2s linear;
+}
+
+.perks__benefitsBoxes .box:hover {
+  border-right: 1px solid #3e424b2c;
+  border: 1px solid #3e424b2c;
+  transform: scale(0.9);
 }
 
 .perks__benefitsBoxes .box img {
@@ -467,6 +479,9 @@ body {
   }
   .perks__benefitsBoxes .box {
     border: 1px solid #3e424b2c;
+  }
+  .perks__benefitsBoxes .box:nth-child(5) {
+    border-right: 1px solid #3e424b2c;
   }
 }
 
@@ -498,6 +513,10 @@ body {
   border-bottom: 1px solid #e2e3e4;
   padding-top: 40px;
   padding-bottom: 30px;
+}
+
+.positions__contentBox:nth-child(3) {
+  border-bottom: 0px;
 }
 
 .positions__title {
@@ -648,5 +667,36 @@ body {
   }
   .careerDetails__contentBox {
     padding: 30px 0px 0px 0px;
+  }
+}
+
+.gallery {
+  padding: 100px 0px;
+}
+
+.gallery .section__title {
+  margin-bottom: 15px;
+}
+
+.gallery__itemContents {
+  margin-top: 40px;
+}
+
+.gallery .mt-20 {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .gallery__item {
+    margin-bottom: 30px;
+  }
+  .gallery__item .mt-20 {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+  .gallery {
+    padding-bottom: 0px;
   }
 }

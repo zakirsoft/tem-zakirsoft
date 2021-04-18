@@ -17,6 +17,9 @@
     border-bottom: 1px solid #e2e3e4;
     padding-top: 40px;
     padding-bottom: 30px;
+    &:nth-child(3) {
+      border-bottom: 0px;
+    }
   }
 
   &__title {

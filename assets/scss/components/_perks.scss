@@ -2,6 +2,12 @@
   background-color: #fafafa;
   padding: 100px 0px;
 
+  .section {
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+
   &__benefitsBoxes {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -12,6 +18,13 @@
       padding: 25px;
       border-right: 1px solid #3e424b2c;
       text-align: center;
+      transform: scale(1);
+      transition: all 0.2s linear;
+      &:hover {
+        border-right: 1px solid #3e424b2c;
+        border: 1px solid #3e424b2c;
+        transform: scale(0.9);
+      }
       img {
         margin-bottom: 18px;
       }
@@ -43,6 +56,9 @@
       grid-template-columns: repeat(2, 1fr);
       .box {
         border: 1px solid #3e424b2c;
+        &:nth-child(5) {
+          border-right: 1px solid #3e424b2c;
+        }
       }
     }
   }
