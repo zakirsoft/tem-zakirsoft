@@ -1,0 +1,83 @@
+.perks {
+  background-color: #fafafa;
+  padding: 100px 0px;
+  .section__title {
+    margin-bottom: 15px;
+  }
+  &__benefitsBoxes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    // align-items: center;
+    // justify-content: center;
+    margin-top: 45px;
+    .box {
+      background-color: #fff;
+      padding: 25px 50px;
+      border-right: 1px solid #3e424b2c;
+      text-align: center;
+      img {
+        margin-bottom: 18px;
+      }
+      &__title {
+        font-size: 20px;
+        line-height: 28px;
+        color: #3e424b;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* 
+=================
+ ** Responsive **
+=================
+*/
+
+@media (min-width: 1200px) and (max-width: 1850px) {
+}
+
+@media (max-width: 1199px) {
+  .perks {
+    &__benefitsBoxes {
+      grid-template-columns: repeat(2, 1fr);
+      .box {
+        border: 1px solid #3e424b2c;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) and(max-width: 1199px) {
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+}
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (max-width: 574px) {
+  .perks {
+    &__benefitsBoxes {
+      grid-template-columns: repeat(1, 1fr);
+      .box {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+}
