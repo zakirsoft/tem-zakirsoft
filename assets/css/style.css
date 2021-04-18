@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section__title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.section__title_one {
+  font-size: 84px;
+  line-height: 110px;
+  margin: auto;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #7a849a;
+  text-transform: capitalize;
+}
+
+.zakirSoft__button {
+  padding: 15px 20px;
+  background-color: transparent;
+}
+
+.zakirSoft__button a {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #3e424b;
+  text-transform: uppercase;
+}
+
+.zakirSoft__button a span {
+  margin-left: 15px;
+}
+
+.latestProject {
+  margin: 100px 0px;
+}
+
+.latestProject__container {
+  background-color: #eef3ff;
+  padding: 70px 50px;
+}
+
+.latestProject__logo img {
+  width: 182px;
+}
+
+.latestProject__logo_codeshikhi img {
+  width: 122px;
+}
+
+.latestProject__title {
+  font-size: 62px;
+  line-height: 74px;
+  color: #3e424b;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.latestProject__projectInfo {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.latestProject__info {
+  margin-right: 75px;
+}
+
+.latestProject__info h5 {
+  font-size: 20px;
+  line-height: 44px;
+  color: #3e424b;
+  font-weight: 600;
+  margin: 0;
+}
+
+.latestProject__info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e424b;
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.latestProject__brief {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7a849a;
+  margin: 35px 0px;
+}
+
+.latestProject__imgContent img {
+  width: 768px;
+  height: 430px;
+}
+
+.latestProject__imgContent_one img {
+  margin-left: 50px;
+}
+
+.latestProject__imgContent_two img {
+  margin-left: -225px;
+}
+
+/* 
+=================
+ ** Responsive **
+=================
+*/
+@media (min-width: 1200px) and (max-width: 1850px) {
+  .latestProject__imgContent_one img {
+    margin-left: -135px;
+  }
+  .latestProject__imgContent_two img {
+    margin-left: -30px;
+  }
+  .latestProject__contentText_two {
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .latestProject__imgContent img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 145px;
+    margin-left: 0px;
+  }
+  .latestProject__contentText__two {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .latestProject__imgContent_one img {
+    margin-left: 15px;
+  }
+  .latestProject__imgContent_two {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .latestProject__imgContent img {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+  .latestProject__container {
+    padding: 70px 15px;
+  }
+  .latestProject__title {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .latestProject__info {
+    margin-right: 15px;
+  }
+}
+
+.articles {
+  background-color: #f2f2f2;
+  padding: 100px 0px;
+}
+
+.articles .section__title {
+  margin-bottom: 40px;
+}
+
+.articles__contentBox {
+  border: 0;
+  box-shadow: -3px 9px 30px -13px rgba(0, 0, 0, 0.64);
+  transform: translateY(0);
+  transition: all 0.2s linear;
+  cursor: context-menu;
+  margin-bottom: 30px;
+}
+
+.articles__contentBox:hover {
+  transform: translateY(-10px);
+}
+
+.articles__contentImg img {
+  width: 100%;
+  height: auto;
+}
+
+.articles__contentText {
+  padding: 20px;
+}
+
+.articles__title {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #3e424b;
+}
+
+.articles__brief {
+  font-size: 14px;
+  line-height: 21px;
+  color: #7a849a;
+}
+
+.articles__readMore {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #3e424b;
+  text-transform: uppercase;
+}
+
+.articles__readMore:hover {
+  color: #3e424b;
+}
+
+.articles__readMore span {
+  margin-left: 5px;
+}
+
+/* 
+=================
+ ** Responsive **
+=================
+*/

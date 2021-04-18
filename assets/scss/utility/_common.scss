@@ -1,0 +1,11 @@
+.section__title {
+  font-family: 'Oswald', sans-serif;
+  &_one {
+    font-size: 84px;
+    line-height: 110px;
+    margin: auto;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #7a849a;
+    text-transform: capitalize;
+  }
+}
