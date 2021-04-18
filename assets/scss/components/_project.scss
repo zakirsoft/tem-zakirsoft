@@ -96,7 +96,27 @@
     }
     &__contentText {
       &_two {
-        margin-left: 140px;
+        margin-left: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .latestProject {
+    &__imgContent {
+      &_one {
+        img {
+          margin-left: -70px;
+        }
+      }
+      &_two {
+        img {
+          margin-left: -70px;
+        }
+      }
+      img {
+        width: 650px;
       }
     }
   }

@@ -266,7 +266,19 @@ body {
     margin-left: -30px;
   }
   .latestProject__contentText_two {
-    margin-left: 140px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .latestProject__imgContent_one img {
+    margin-left: -70px;
+  }
+  .latestProject__imgContent_two img {
+    margin-left: -70px;
+  }
+  .latestProject__imgContent img {
+    width: 650px;
   }
 }
 
