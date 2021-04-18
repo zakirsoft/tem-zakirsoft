@@ -143,6 +143,31 @@ body {
   max-width: 65%;
 }
 
+/* 
+=================
+ ** Responsive **
+=================
+*/
+@media (max-width: 1199px) {
+  .newsDetails__brief {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .newsDetails__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+  .newsDetails__title {
+    font-size: 32px;
+    line-height: 46px;
+  }
+}
+
 .latestProject {
   margin: 100px 0px;
 }
