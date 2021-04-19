@@ -27,6 +27,7 @@
     line-height: 38px;
     font-weight: 600;
     color: #3e424b;
+    text-transform: capitalize;
   }
   &__type {
     font-size: 20px;
@@ -45,6 +46,8 @@
       border-radius: 50%;
       display: inline-block;
       background-color: #3e424b;
+      margin: 0px 12px;
+      margin-bottom: 5px;
     }
   }
 
@@ -75,6 +78,23 @@
       button {
         margin-top: 30px;
       }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 574px) {
+  .positions {
+    &__type {
+      font-size: 18px;
+      line-height: 28px;
+      .point {
+        margin-right: 40px;
+        opacity: 0;
+      }
+    }
+    &__responsiblity {
+      font-size: 16px;
+      line-height: 28px;
     }
   }
 }
