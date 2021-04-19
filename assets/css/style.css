@@ -606,6 +606,7 @@ body {
   .positions__type {
     font-size: 18px;
     line-height: 28px;
+    margin-top: 30px;
   }
   .positions__responsiblity {
     font-size: 16px;
@@ -746,6 +747,11 @@ body {
 @media (max-width: 767px) {
   .gallery__item {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .gallery__item img {
+    max-width: 380px;
   }
   .gallery__item .mt-20 {
     margin-top: 0px;
@@ -755,5 +761,8 @@ body {
 @media (min-width: 320px) and (max-width: 574px) {
   .gallery {
     padding-bottom: 0px;
+  }
+  .gallery__item img {
+    max-width: 100%;
   }
 }
