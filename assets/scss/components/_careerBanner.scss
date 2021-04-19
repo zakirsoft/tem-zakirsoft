@@ -48,6 +48,13 @@
 }
 
 @media (max-width: 767px) {
+  .careerTeam {
+    &__contentImg {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {

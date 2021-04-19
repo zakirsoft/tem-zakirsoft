@@ -420,6 +420,12 @@ body {
  ** Responsive **
 =================
 */
+@media (max-width: 767px) {
+  .careerTeam__contentImg img {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 574px) {
   .careerTeam__title {
     font-size: 48px;
@@ -448,6 +454,8 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 45px;
+  box-shadow: 0px 20px 49px -12px rgba(0, 0, 0, 0.192);
+  padding: 0;
 }
 
 .perks__benefitsBoxes .box {
@@ -461,8 +469,8 @@ body {
 
 .perks__benefitsBoxes .box:hover {
   border-right: 1px solid #3e424b2c;
-  border: 1px solid #3e424b2c;
-  transform: scale(0.9);
+  transform: scale(1.2);
+  box-shadow: 0px 20px 41px -24px rgba(0, 0, 0, 0.64);
 }
 
 .perks__benefitsBoxes .box img {
@@ -488,12 +496,22 @@ body {
 @media (max-width: 1199px) {
   .perks__benefitsBoxes {
     grid-template-columns: repeat(2, 1fr);
+    box-shadow: none;
   }
   .perks__benefitsBoxes .box {
     border: 1px solid #3e424b2c;
   }
+  .perks__benefitsBoxes .box:hover {
+    transform: scale(0.9);
+  }
   .perks__benefitsBoxes .box:nth-child(5) {
     border-right: 1px solid #3e424b2c;
+  }
+}
+
+@media (max-width: 767px) {
+  .perks__container {
+    max-width: 95%;
   }
 }
 
