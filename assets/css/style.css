@@ -335,7 +335,7 @@ body {
 
 .articles__contentBox {
   border: 0;
-  box-shadow: -3px 9px 30px -13px rgba(0, 0, 0, 0.64);
+  box-shadow: -3px 2px 10px -15px rgba(0, 0, 0, 0.178);
   transform: translateY(0);
   transition: all 0.2s linear;
   cursor: context-menu;
@@ -454,21 +454,21 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 45px;
-  box-shadow: 0px 20px 49px -12px rgba(0, 0, 0, 0.192);
+  box-shadow: 0px 10px 60px -12px rgba(0, 0, 0, 0.192);
   padding: 0;
 }
 
 .perks__benefitsBoxes .box {
   background-color: #fff;
   padding: 25px;
-  border-right: 1px solid #3e424b2c;
+  border-right: 1px solid #e2e3e4;
   text-align: center;
   transform: scale(1);
   transition: all 0.2s linear;
 }
 
 .perks__benefitsBoxes .box:hover {
-  border-right: 1px solid #3e424b2c;
+  border-right: 1px solid #e2e3e4;
   transform: scale(1.2);
   box-shadow: 0px 20px 41px -24px rgba(0, 0, 0, 0.64);
 }
@@ -606,6 +606,11 @@ body {
   padding: 100px 0px;
 }
 
+.careerDetails__container {
+  width: 1170px;
+  padding: 0px;
+}
+
 .careerDetails__postTitleBox {
   text-align: center;
   padding-bottom: 30px;
@@ -640,11 +645,13 @@ body {
   border-radius: 50%;
   display: inline-block;
   background-color: #3e424b;
+  margin: 0px 12px;
+  margin-bottom: 5px;
 }
 
 .careerDetails__contentBox {
   padding: 50px 0px 0px 0px;
-  max-width: 50%;
+  max-width: 775px;
   margin: auto;
 }
 
@@ -687,6 +694,15 @@ body {
 @media (max-width: 991px) {
   .careerDetails__contentBox {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .careerDetails__container {
+    max-width: 100%;
+  }
+  .careerDetails__contentBox {
+    margin: 0px 15px;
   }
 }
 

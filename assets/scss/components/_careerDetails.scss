@@ -1,8 +1,10 @@
 .careerDetails {
   padding: 100px 0px;
-  // &__container {
-  //   max-width: 50%;
-  // }
+  &__container {
+    width: 1170px;
+    padding: 0px;
+  }
+
   &__postTitleBox {
     text-align: center;
     padding-bottom: 30px;
@@ -32,12 +34,14 @@
       border-radius: 50%;
       display: inline-block;
       background-color: #3e424b;
+      margin: 0px 12px;
+      margin-bottom: 5px;
     }
   }
 
   &__contentBox {
     padding: 50px 0px 0px 0px;
-    max-width: 50%;
+    max-width: 775px;
     margin: auto;
     &-title {
       font-size: 32px;
@@ -110,7 +114,15 @@
 @media (min-width: 575px) and (max-width: 767px) {
 }
 
-@media (max-width: 574px) {
+@media (max-width: 575px) {
+  .careerDetails {
+    &__container {
+      max-width: 100%;
+    }
+    &__contentBox {
+      margin: 0px 15px;
+    }
+  }
 }
 
 @media (min-width: 320px) and (max-width: 574px) {
