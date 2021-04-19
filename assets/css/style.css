@@ -96,7 +96,7 @@ body {
 }
 
 .zakirSoft__button a span {
-  margin-left: 15px;
+  margin-left: 8px;
 }
 
 .zakirSoft__button_primary {
@@ -260,10 +260,10 @@ body {
 */
 @media (min-width: 1200px) and (max-width: 1850px) {
   .latestProject__imgContent_one img {
-    margin-left: -135px;
+    margin-left: -80px;
   }
   .latestProject__imgContent_two img {
-    margin-left: -30px;
+    margin-left: -95px;
   }
   .latestProject__contentText_two {
     margin-left: 100px;
